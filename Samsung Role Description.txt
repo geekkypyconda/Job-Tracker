@@ -1,0 +1,3 @@
+Responsible for analyzing SELinux audit logs to identify permission denials and security-related issues across multiple services. 
+Implement and refine SELinux policies, manage security labels, and assign appropriate permissions 
+to resolve identified issues, maintain system integrity, and ensure secure, uninterrupted operations.

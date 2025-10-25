@@ -1,1 +1,1 @@
-[amazon, google]
+[amazon, walmart, google, microsoft]

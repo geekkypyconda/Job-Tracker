@@ -1,0 +1,44 @@
+Java
+C
+C++
+Python
+SQL
+Data Structures
+Algorithms
+Object-Oriented Programming
+Operating Systems
+SELinux Policy Management
+Permission Configuration
+System Security
+Network Security
+DTLS
+Encryption
+Authentication
+Deep Learning
+MLP
+LSTM
+Model Benchmarking
+Feature Engineering
+PCA
+Information Gain
+Feature-engine
+O-RAN
+5G Security
+DoS Detection
+RRC Layer Analysis
+MAC Layer Analysis
+TensorFlow
+Keras
+scikit-learn
+pandas
+NumPy
+Matplotlib
+Seaborn
+IntelliJ IDEA
+Android Studio
+Visual Studio Code
+GitHub
+Perforce
+Wireshark
+Docker
+OpenSSL
