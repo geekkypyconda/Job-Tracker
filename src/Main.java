@@ -92,7 +92,7 @@ public class Main {
 
     static void getAllJobsOfCompany() throws IOException {
         println("Enter Company Name:");
-        String companyName = fio.readLine();
+        String companyName = fio.readLine();companyName = companyName.toLowerCase();
 
         getAllOpenJobsOfCompanyUtil(companyName);
         getAllClosedJobsOfCompanyUtil(companyName);
@@ -100,20 +100,21 @@ public class Main {
 
     static void getAllOpenJobsOfCompany() throws IOException{
         println("Enter Company Name:");
-        String companyName = fio.readLine();
+        String companyName = fio.readLine();companyName = companyName.toLowerCase();
 
         getAllOpenJobsOfCompanyUtil(companyName);
     }
 
     static void getAllClosedJobsOfCompany() throws IOException{
         println("Enter Company Name:");
-        String companyName = fio.readLine();
+        String companyName = fio.readLine();companyName = companyName.toLowerCase();
 
         getAllClosedJobsOfCompanyUtil(companyName);
     }
 
     static int getAllClosedJobsCountOfACompany(String companyName) throws IOException {
         HashSet<String> set = fio.readJobsFromFile(CLOSED_JOBS_FILE);
+        companyName = companyName.toLowerCase();
 
         ArrayList<String> l = new ArrayList<>();
         for(String j : set){
@@ -127,6 +128,7 @@ public class Main {
 
     static int getAllOpenJobsCountOfACompany(String companyName) throws IOException {
         HashSet<String> set = fio.readJobsFromFile(OPEN_JOBS_FILE);
+        companyName = companyName.toLowerCase();
 
         ArrayList<String> l = new ArrayList<>();
         for(String j : set){
@@ -140,6 +142,7 @@ public class Main {
 
     static void getAllOpenJobsOfCompanyUtil(String companyName) throws IOException {
         HashSet<String> set = fio.readJobsFromFile(OPEN_JOBS_FILE);
+        companyName = companyName.toLowerCase();
 
         println("\nX---------------------" + companyName + "---------------------X\n");
         println("\nOpen Jobs:- ");
@@ -163,6 +166,7 @@ public class Main {
 
     static void getAllClosedJobsOfCompanyUtil(String companyName) throws IOException {
         HashSet<String> set = fio.readJobsFromFile(CLOSED_JOBS_FILE);
+        companyName = companyName.toLowerCase();
 
         println("\nX---------------------" + companyName + "---------------------X\n");
         println("\nClosed Jobs:- ");
